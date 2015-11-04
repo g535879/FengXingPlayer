@@ -81,6 +81,11 @@
 		AD8CD25F1BEA0B2F001F0BE3 = {
 			isa = PBXGroup;
 			children = (
+				AD8CD29E1BEA0C67001F0BE3 /* Library */,
+				AD8CD29F1BEA0C67001F0BE3 /* Model */,
+				AD8CD2A01BEA0C67001F0BE3 /* Resources */,
+				AD8CD2A11BEA0C67001F0BE3 /* View */,
+				AD8CD2A21BEA0C67001F0BE3 /* ViewControllers */,
 				AD8CD26A1BEA0B2F001F0BE3 /* FengXingPlayer */,
 				AD8CD2841BEA0B30001F0BE3 /* FengXingPlayerTests */,
 				AD8CD28F1BEA0B30001F0BE3 /* FengXingPlayerUITests */,
@@ -138,6 +143,41 @@
 				AD8CD2921BEA0B30001F0BE3 /* Info.plist */,
 			);
 			path = FengXingPlayerUITests;
+			sourceTree = "<group>";
+		};
+		AD8CD29E1BEA0C67001F0BE3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		AD8CD29F1BEA0C67001F0BE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD8CD2A01BEA0C67001F0BE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD8CD2A11BEA0C67001F0BE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD8CD2A21BEA0C67001F0BE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

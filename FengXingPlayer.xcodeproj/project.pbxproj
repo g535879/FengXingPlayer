@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD8CD26D1BEA0B2F001F0BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD26C1BEA0B2F001F0BE3 /* main.m */; };
+		AD8CD2701BEA0B2F001F0BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD26F1BEA0B2F001F0BE3 /* AppDelegate.m */; };
+		AD8CD2731BEA0B2F001F0BE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD2721BEA0B2F001F0BE3 /* ViewController.m */; };
+		AD8CD2761BEA0B2F001F0BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8CD2741BEA0B2F001F0BE3 /* Main.storyboard */; };
+		AD8CD2781BEA0B2F001F0BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8CD2771BEA0B2F001F0BE3 /* Assets.xcassets */; };
+		AD8CD27B1BEA0B2F001F0BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8CD2791BEA0B2F001F0BE3 /* LaunchScreen.storyboard */; };
+		AD8CD2861BEA0B30001F0BE3 /* FengXingPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD2851BEA0B30001F0BE3 /* FengXingPlayerTests.m */; };
+		AD8CD2911BEA0B30001F0BE3 /* FengXingPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD2901BEA0B30001F0BE3 /* FengXingPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD8CD2821BEA0B30001F0BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8CD2601BEA0B2F001F0BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8CD2671BEA0B2F001F0BE3;
+			remoteInfo = FengXingPlayer;
+		};
+		AD8CD28D1BEA0B30001F0BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8CD2601BEA0B2F001F0BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8CD2671BEA0B2F001F0BE3;
+			remoteInfo = FengXingPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD8CD2681BEA0B2F001F0BE3 /* FengXingPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengXingPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8CD26C1BEA0B2F001F0BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD8CD26E1BEA0B2F001F0BE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD8CD26F1BEA0B2F001F0BE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD8CD2711BEA0B2F001F0BE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD8CD2721BEA0B2F001F0BE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD8CD2751BEA0B2F001F0BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD8CD2771BEA0B2F001F0BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD8CD27A1BEA0B2F001F0BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD8CD27C1BEA0B2F001F0BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8CD2811BEA0B30001F0BE3 /* FengXingPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FengXingPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8CD2851BEA0B30001F0BE3 /* FengXingPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengXingPlayerTests.m; sourceTree = "<group>"; };
+		AD8CD2871BEA0B30001F0BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8CD28C1BEA0B30001F0BE3 /* FengXingPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FengXingPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8CD2901BEA0B30001F0BE3 /* FengXingPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengXingPlayerUITests.m; sourceTree = "<group>"; };
+		AD8CD2921BEA0B30001F0BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD8CD2651BEA0B2F001F0BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8CD27E1BEA0B30001F0BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8CD2891BEA0B30001F0BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD8CD25F1BEA0B2F001F0BE3 = {
+			isa = PBXGroup;
+			children = (
+				AD8CD26A1BEA0B2F001F0BE3 /* FengXingPlayer */,
+				AD8CD2841BEA0B30001F0BE3 /* FengXingPlayerTests */,
+				AD8CD28F1BEA0B30001F0BE3 /* FengXingPlayerUITests */,
+				AD8CD2691BEA0B2F001F0BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8CD2691BEA0B2F001F0BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CD2681BEA0B2F001F0BE3 /* FengXingPlayer.app */,
+				AD8CD2811BEA0B30001F0BE3 /* FengXingPlayerTests.xctest */,
+				AD8CD28C1BEA0B30001F0BE3 /* FengXingPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD8CD26A1BEA0B2F001F0BE3 /* FengXingPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CD26E1BEA0B2F001F0BE3 /* AppDelegate.h */,
+				AD8CD26F1BEA0B2F001F0BE3 /* AppDelegate.m */,
+				AD8CD2711BEA0B2F001F0BE3 /* ViewController.h */,
+				AD8CD2721BEA0B2F001F0BE3 /* ViewController.m */,
+				AD8CD2741BEA0B2F001F0BE3 /* Main.storyboard */,
+				AD8CD2771BEA0B2F001F0BE3 /* Assets.xcassets */,
+				AD8CD2791BEA0B2F001F0BE3 /* LaunchScreen.storyboard */,
+				AD8CD27C1BEA0B2F001F0BE3 /* Info.plist */,
+				AD8CD26B1BEA0B2F001F0BE3 /* Supporting Files */,
+			);
+			path = FengXingPlayer;
+			sourceTree = "<group>";
+		};
+		AD8CD26B1BEA0B2F001F0BE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CD26C1BEA0B2F001F0BE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD8CD2841BEA0B30001F0BE3 /* FengXingPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CD2851BEA0B30001F0BE3 /* FengXingPlayerTests.m */,
+				AD8CD2871BEA0B30001F0BE3 /* Info.plist */,
+			);
+			path = FengXingPlayerTests;
+			sourceTree = "<group>";
+		};
+		AD8CD28F1BEA0B30001F0BE3 /* FengXingPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CD2901BEA0B30001F0BE3 /* FengXingPlayerUITests.m */,
+				AD8CD2921BEA0B30001F0BE3 /* Info.plist */,
+			);
+			path = FengXingPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8CD2671BEA0B2F001F0BE3 /* FengXingPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8CD2951BEA0B30001F0BE3 /* Build configuration list for PBXNativeTarget "FengXingPlayer" */;
+			buildPhases = (
+				AD8CD2641BEA0B2F001F0BE3 /* Sources */,
+				AD8CD2651BEA0B2F001F0BE3 /* Frameworks */,
+				AD8CD2661BEA0B2F001F0BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FengXingPlayer;
+			productName = FengXingPlayer;
+			productReference = AD8CD2681BEA0B2F001F0BE3 /* FengXingPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD8CD2801BEA0B30001F0BE3 /* FengXingPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8CD2981BEA0B30001F0BE3 /* Build configuration list for PBXNativeTarget "FengXingPlayerTests" */;
+			buildPhases = (
+				AD8CD27D1BEA0B30001F0BE3 /* Sources */,
+				AD8CD27E1BEA0B30001F0BE3 /* Frameworks */,
+				AD8CD27F1BEA0B30001F0BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD8CD2831BEA0B30001F0BE3 /* PBXTargetDependency */,
+			);
+			name = FengXingPlayerTests;
+			productName = FengXingPlayerTests;
+			productReference = AD8CD2811BEA0B30001F0BE3 /* FengXingPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD8CD28B1BEA0B30001F0BE3 /* FengXingPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8CD29B1BEA0B30001F0BE3 /* Build configuration list for PBXNativeTarget "FengXingPlayerUITests" */;
+			buildPhases = (
+				AD8CD2881BEA0B30001F0BE3 /* Sources */,
+				AD8CD2891BEA0B30001F0BE3 /* Frameworks */,
+				AD8CD28A1BEA0B30001F0BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD8CD28E1BEA0B30001F0BE3 /* PBXTargetDependency */,
+			);
+			name = FengXingPlayerUITests;
+			productName = FengXingPlayerUITests;
+			productReference = AD8CD28C1BEA0B30001F0BE3 /* FengXingPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8CD2601BEA0B2F001F0BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = guyubin;
+				TargetAttributes = {
+					AD8CD2671BEA0B2F001F0BE3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 63349GKWYV;
+					};
+					AD8CD2801BEA0B30001F0BE3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 63349GKWYV;
+						TestTargetID = AD8CD2671BEA0B2F001F0BE3;
+					};
+					AD8CD28B1BEA0B30001F0BE3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 63349GKWYV;
+						TestTargetID = AD8CD2671BEA0B2F001F0BE3;
+					};
+				};
+			};
+			buildConfigurationList = AD8CD2631BEA0B2F001F0BE3 /* Build configuration list for PBXProject "FengXingPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD8CD25F1BEA0B2F001F0BE3;
+			productRefGroup = AD8CD2691BEA0B2F001F0BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8CD2671BEA0B2F001F0BE3 /* FengXingPlayer */,
+				AD8CD2801BEA0B30001F0BE3 /* FengXingPlayerTests */,
+				AD8CD28B1BEA0B30001F0BE3 /* FengXingPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD8CD2661BEA0B2F001F0BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8CD27B1BEA0B2F001F0BE3 /* LaunchScreen.storyboard in Resources */,
+				AD8CD2781BEA0B2F001F0BE3 /* Assets.xcassets in Resources */,
+				AD8CD2761BEA0B2F001F0BE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8CD27F1BEA0B30001F0BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8CD28A1BEA0B30001F0BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8CD2641BEA0B2F001F0BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8CD2731BEA0B2F001F0BE3 /* ViewController.m in Sources */,
+				AD8CD2701BEA0B2F001F0BE3 /* AppDelegate.m in Sources */,
+				AD8CD26D1BEA0B2F001F0BE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8CD27D1BEA0B30001F0BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8CD2861BEA0B30001F0BE3 /* FengXingPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8CD2881BEA0B30001F0BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8CD2911BEA0B30001F0BE3 /* FengXingPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD8CD2831BEA0B30001F0BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8CD2671BEA0B2F001F0BE3 /* FengXingPlayer */;
+			targetProxy = AD8CD2821BEA0B30001F0BE3 /* PBXContainerItemProxy */;
+		};
+		AD8CD28E1BEA0B30001F0BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8CD2671BEA0B2F001F0BE3 /* FengXingPlayer */;
+			targetProxy = AD8CD28D1BEA0B30001F0BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD8CD2741BEA0B2F001F0BE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8CD2751BEA0B2F001F0BE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD8CD2791BEA0B2F001F0BE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8CD27A1BEA0B2F001F0BE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD8CD2931BEA0B30001F0BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD8CD2941BEA0B30001F0BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD8CD2961BEA0B30001F0BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FengXingPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengXingPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD8CD2971BEA0B30001F0BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FengXingPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengXingPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD8CD2991BEA0B30001F0BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FengXingPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengXingPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FengXingPlayer.app/FengXingPlayer";
+			};
+			name = Debug;
+		};
+		AD8CD29A1BEA0B30001F0BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FengXingPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengXingPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FengXingPlayer.app/FengXingPlayer";
+			};
+			name = Release;
+		};
+		AD8CD29C1BEA0B30001F0BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FengXingPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengXingPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FengXingPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AD8CD29D1BEA0B30001F0BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FengXingPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengXingPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FengXingPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD8CD2631BEA0B2F001F0BE3 /* Build configuration list for PBXProject "FengXingPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8CD2931BEA0B30001F0BE3 /* Debug */,
+				AD8CD2941BEA0B30001F0BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8CD2951BEA0B30001F0BE3 /* Build configuration list for PBXNativeTarget "FengXingPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8CD2961BEA0B30001F0BE3 /* Debug */,
+				AD8CD2971BEA0B30001F0BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD8CD2981BEA0B30001F0BE3 /* Build configuration list for PBXNativeTarget "FengXingPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8CD2991BEA0B30001F0BE3 /* Debug */,
+				AD8CD29A1BEA0B30001F0BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD8CD29B1BEA0B30001F0BE3 /* Build configuration list for PBXNativeTarget "FengXingPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8CD29C1BEA0B30001F0BE3 /* Debug */,
+				AD8CD29D1BEA0B30001F0BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD8CD2601BEA0B2F001F0BE3 /* Project object */;
+}

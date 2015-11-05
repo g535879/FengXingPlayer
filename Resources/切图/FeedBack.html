@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=2.0"/>
+<title>风行</title>
+<style type="text/css">
+body{background-color:#FFF4DB;-webkit-text-size-adjust:none;margin:0;padding:0;font-size:16px;line-height:1.25em;}
+label{color:#1E1E1E;}
+.b{font-weight:bold;color:#AE6734;}
+a{color:#5F3A1F;}
+.center{text-align:center;}
+.fl{float:left;}
+.fr{float:right;}
+.red{color:red;}
+.green{color:green;}
+*{padding:0;margin:0}
+.shadow{-moz-box-shadow:2px 2px 2px #ddd;-webkit-box-shadow:2px 2px 2px #ddd;box-shadow:2px 2px 2px #ddd}
+.clear-both{clear:both;float:none;margin:0;padding:0;}
+.block{margin:7px 5px 0 5px;background-color:#FFF;}
+.block,.br-up,.button{-moz-border-radius-topright:5px;-moz-border-radius-topleft:5px;-webkit-border-top-right-radius:5px;-webkit-border-top-left-radius:5px;border-top-right-radius:5px;border-top-left-radius:5px}
+.block,.br-down,.button{-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px}
+.br-up,.br-down{border:1px solid #DED3D3;}
+.br-up{border-bottom:none;}
+.br-down{border-top:none;}
+.with-border{border:1px solid #DED3D3;}
+.without-footer{padding-bottom:10px;}
+
+.fix:after,.clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.fix, .clearfix{*zoom:1}
+body{background-color:#ede9e3;font-family:Arial,Helvetica,'LiHei Pro Medium'}
+.layout{padding:15px 10px}
+.title{color:#534742;font-size:16px;padding:15px 0 5px 0;}
+.textarea{font-size:16px;width:96%;height:68px;font-family:Arial,Helvetica,'LiHei Pro Medium';padding:5px;border-radius:5px;-webkit-border-radius:5px;border:1px solid #bbb;resize:none;box-shadow:1px 1px 3px #efefef inset;-webkit-box-shadow:1px 1px 3px #efefef inset}
+.input{height:22px;line-height:22px;padding:10px 5px; font-size:16px;}
+.contact{position:relative;}
+.contact label{position:absolute;left:5px;top:12px;color:#bfbfbf}
+.submit{
+	margin-top:15px;
+	padding:0px 5px;border:1px solid #8e3607;text-align:center;width:96%;height:42px;line-height:42px;background-color:#f47d16;border-radius:5px;-webkit-border-radius:5px;
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f97f17),color-stop(99%,#f67e16),color-stop(1%,#f97f17),color-stop(100%,#f67e16));
+	background:-moz-linear-gradient(top,#f67e16 0,#f97f17 1%,#f67e16 99%,#f67e16 100%);
+}
+.submit button{
+	font-family:Verdana;
+	width:100%;height:42;background-color:transparent;border:0;color:#fff;font-size:18px;letter-spacing:3px;font-weight:bold;
+	text-shadow:0 0 1px rgba(0, 0, 0, 0.5);
+	-webkit-text-shadow:0 0 1px rgba(0, 0, 0, 0.5);
+}
+.item{float:left;width:100px;padding-top:5px;}
+.item span{
+	margin-right:5px;
+	display : block;
+	width : 19px;
+	height:20px;
+	float:left;
+	background:url('data:image/png;base64,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') no-repeat 0 0;
+}
+.item-click span{
+	background-position:0 -20px
+}
+</style>
+</head>
+<body class="iphone">
+<form name="mobile-form" id="mobile-form" action="fsp://i.funshion.com/api/zeus_feedback" method="post">
+	<input type="hidden" name="type" value="1" id="mobile-type" />
+	<input type="hidden" name="contact-type" value="0" id="contact-type" />
+	<input type="hidden" name="cli" value="iphone" />
+	<input type="hidden" name="ver" value="1.2.0.1" />
+	<div class="layout">
+		<div class="title">选择类型：</div>
+		<div class="checkbox clearfix" id="checkbox">
+			<div class="item item-click clearfix" value="1">
+				<span></span><label>问题反馈</label>
+			</div>
+			<div class="item clearfix" value="2">
+				<span></span><label>改善意见</label>
+			</div>
+			<div class="item clearfix" value="3">
+				<span></span><label>内容需求</label>
+			</div>
+			<div class="item clearfix" value="4">
+				<span></span><label>使用咨询</label>
+			</div>
+			<div class="item clearfix" value="5">
+				<span></span><label>其它</label>
+			</div>
+		</div>
+		<div class="title">问题描述：</div>
+		<div class="desc">
+			<textarea class="textarea" name='askDescription' id="textarea"></textarea>
+		</div>
+		<div class="title">联系方式：</div>
+		<div class="contact">
+			<input type="text" value="邮箱 / QQ / 手机" name='contact-value' onfocus="this.value=''" onblur="this.value==''?'邮箱 / QQ / 手机':this.value" class="textarea input" id="contact" style="color:#bfbfbf" />
+		</div>
+		<div class="title">
+			<div class="submit"><button type="submit">提交</button></div>
+		</div>
+	</div>
+</form>
+<script type="text/javascript">
+(function(){
+	var $ = function(id){
+		return document.getElementById(id);
+	};
+	var each = function (source, iterator, thisObject) {
+		var returnValue, item, i, len = source.length;
+		if ('function' == typeof iterator) {
+			for (i = 0; i < len; i++) {
+				item = source[i];
+				returnValue = iterator.call(thisObject || source, item, i);
+				if (returnValue === false) {
+					break;
+				}
+			}
+		}
+		return source;
+	};
+
+	var contact = $('contact');
+	contact.onfocus = function(){
+		if(contact.value == '邮箱 / QQ / 手机') contact.value = '';
+		contact.style.color = '#333';
+	}
+	contact.onblur = function(){
+		if(!contact.value){
+			contact.value = '邮箱 / QQ / 手机'
+			contact.style.color = '#BFBFBF';
+		}
+	}
+
+	var eles = $('checkbox').getElementsByTagName('div');
+	var normalEvent = function(){
+		each(eles, function(a,b){
+			a.className = 'item clearfix';
+		});
+	}
+	each(eles, function(a,b){
+		a.onclick = function(){
+			normalEvent();
+			this.className = 'item item-click clearfix';
+			$('mobile-type').value = this.getAttribute('value');
+		}
+	});
+
+	var isEmail = function(v){
+		var p = /^[-a-zA-Z0-9_\.]+\@([0-9A-Za-z_][0-9A-Za-z-]+\.)+[A-Za-z]{2,5}$/i.exec(v);
+		if(p){
+			$('contact-type').value = 'email';
+			return true;
+		}
+		return false;
+	}
+
+	var isQQ = function(v){
+		var p = /^\d{5,11}$/.exec(v);
+		if(p){
+			$('contact-type').value = 'qq';
+			return true;
+		}
+		return false;
+	}
+
+	var isMobile = function(v){
+		var p = /^(13|15|18)\d{9}$/.exec(v);
+		if(p){
+			$('contact-type').value = 'mobile';
+			return true;
+		}
+		return false;
+	}
+
+	$('mobile-form').onsubmit = function(){
+		if(!$('textarea').value){
+			alert("需要填写问题描述");
+			//$('textarea').focus();
+			return false;
+		}
+		$('contact-type').value = '';
+		var v = $('contact').value;
+        
+		if(v!='' && v!='邮箱 / QQ / 手机'&&(!v|| (!isEmail(v) && !isQQ(v) && !isMobile(v)))){
+			alert("请您填写正确的联系方式");
+           //$('contact').focus();
+			return false;
+		};
+		return true;
+	}
+})();
+</script>
+</body>
+</html>

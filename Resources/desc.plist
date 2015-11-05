@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>精选</string>
+		<key>iconName</key>
+		<string>homePage_scroll_jx</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>电影</string>
+		<key>iconName</key>
+		<string>homePage_scroll_dy</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>电视剧</string>
+		<key>iconName</key>
+		<string>homePage_scroll_dsj</string>
+		<key>New item</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>综艺</string>
+		<key>iconName</key>
+		<string>homePage_scroll_zy</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>动漫</string>
+		<key>iconName</key>
+		<string>homePage_scroll_dm</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>新闻</string>
+		<key>iconName</key>
+		<string>homePage_scroll_xw</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>娱乐</string>
+		<key>iconName</key>
+		<string>homePage_scroll_yl</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>五星体育</string>
+		<key>iconName</key>
+		<string>homePage_scroll_wxty</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>风行榜</string>
+		<key>iconName</key>
+		<string>homePage_scroll_fxb</string>
+	</dict>
+</array>
+</plist>

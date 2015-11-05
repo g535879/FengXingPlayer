@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AD10DD911BEAEA3C003D0A34 /* VarietyShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD10DD901BEAEA3C003D0A34 /* VarietyShowViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AD10DD951BEAFD7B003D0A34 /* CustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD10DD931BEAFD7B003D0A34 /* CustomViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		AD10DD961BEAFD7B003D0A34 /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD10DD941BEAFD7B003D0A34 /* CustomViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		AD10DD991BEB049E003D0A34 /* VarietyShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD10DD981BEB049E003D0A34 /* VarietyShowModel.m */; settings = {ASSET_TAGS = (); }; };
 		AD8CD26D1BEA0B2F001F0BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD26C1BEA0B2F001F0BE3 /* main.m */; };
 		AD8CD2701BEA0B2F001F0BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD26F1BEA0B2F001F0BE3 /* AppDelegate.m */; };
 		AD8CD2731BEA0B2F001F0BE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD2721BEA0B2F001F0BE3 /* ViewController.m */; };
@@ -932,6 +935,11 @@
 /* Begin PBXFileReference section */
 		AD10DD8F1BEAEA3C003D0A34 /* VarietyShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VarietyShowViewController.h; path = ../../../../developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.h; sourceTree = "<group>"; };
 		AD10DD901BEAEA3C003D0A34 /* VarietyShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VarietyShowViewController.m; path = ../../../../developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.m; sourceTree = "<group>"; };
+		AD10DD921BEAFD7B003D0A34 /* CustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomViewCell.h; path = ../../../../developer/Project/FengXingPlayer/View/CustomViewCell.h; sourceTree = "<group>"; };
+		AD10DD931BEAFD7B003D0A34 /* CustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomViewCell.m; path = ../../../../developer/Project/FengXingPlayer/View/CustomViewCell.m; sourceTree = "<group>"; };
+		AD10DD941BEAFD7B003D0A34 /* CustomViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomViewCell.xib; path = ../../../../developer/Project/FengXingPlayer/View/CustomViewCell.xib; sourceTree = "<group>"; };
+		AD10DD971BEB049E003D0A34 /* VarietyShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VarietyShowModel.h; path = ../../../../developer/Project/FengXingPlayer/Model/VarietyShowModel.h; sourceTree = "<group>"; };
+		AD10DD981BEB049E003D0A34 /* VarietyShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VarietyShowModel.m; path = ../../../../developer/Project/FengXingPlayer/Model/VarietyShowModel.m; sourceTree = "<group>"; };
 		AD8CD2681BEA0B2F001F0BE3 /* FengXingPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengXingPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8CD26C1BEA0B2F001F0BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD8CD26E1BEA0B2F001F0BE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -2001,6 +2009,8 @@
 			children = (
 				AD8CD9F01BEA257E001F0BE3 /* ScroModel.h */,
 				AD8CD9F11BEA257E001F0BE3 /* ScroModel.m */,
+				AD10DD971BEB049E003D0A34 /* VarietyShowModel.h */,
+				AD10DD981BEB049E003D0A34 /* VarietyShowModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -2020,6 +2030,9 @@
 			children = (
 				ADDAD8101BEA375000EF0233 /* DesignPicScrollView.h */,
 				ADDAD8111BEA375000EF0233 /* DesignPicScrollView.m */,
+				AD10DD921BEAFD7B003D0A34 /* CustomViewCell.h */,
+				AD10DD931BEAFD7B003D0A34 /* CustomViewCell.m */,
+				AD10DD941BEAFD7B003D0A34 /* CustomViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -3316,6 +3329,7 @@
 				AD8CD8DB1BEA20B2001F0BE3 /* progress_bar_thumb_press.png in Resources */,
 				AD8CD7711BEA20B1001F0BE3 /* goback@2x.png in Resources */,
 				AD8CD7CA1BEA20B1001F0BE3 /* indicator_1&2bit@2x.png in Resources */,
+				AD10DD961BEAFD7B003D0A34 /* CustomViewCell.xib in Resources */,
 				AD8CD9361BEA20B2001F0BE3 /* setting_register_mail_list.png in Resources */,
 				AD8CD7331BEA20B1001F0BE3 /* EmbeddedWebView_Back.png in Resources */,
 				AD8CD7231BEA20B1001F0BE3 /* downloadInfoViewButton@2x.png in Resources */,
@@ -4071,6 +4085,7 @@
 				AD8CD2731BEA0B2F001F0BE3 /* ViewController.m in Sources */,
 				AD8CD2EF1BEA0DB8001F0BE3 /* AFHTTPSessionManager.m in Sources */,
 				AD8CD2ED1BEA0DB8001F0BE3 /* AFHTTPRequestOperation.m in Sources */,
+				AD10DD991BEB049E003D0A34 /* VarietyShowModel.m in Sources */,
 				AD8CD2BD1BEA0DA6001F0BE3 /* JSONModel.m in Sources */,
 				AD8CD2F61BEA0DB8001F0BE3 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				AD8CD2F11BEA0DB8001F0BE3 /* AFSecurityPolicy.m in Sources */,
@@ -4082,6 +4097,7 @@
 				AD8CD9F21BEA257E001F0BE3 /* ScroModel.m in Sources */,
 				AD10DD911BEAEA3C003D0A34 /* VarietyShowViewController.m in Sources */,
 				AD8CD3201BEA0DC7001F0BE3 /* MKAnnotationView+WebCache.m in Sources */,
+				AD10DD951BEAFD7B003D0A34 /* CustomViewCell.m in Sources */,
 				AD8CD32E1BEA0DC7001F0BE3 /* UIImageView+WebCache.m in Sources */,
 				AD8CD2F51BEA0DB8001F0BE3 /* AFURLSessionManager.m in Sources */,
 				AD8CD2C41BEA0DA6001F0BE3 /* JSONModel+networking.m in Sources */,

@@ -19,6 +19,8 @@
     
     //设置背景色
     [self.view setBackgroundColor:[UIColor whiteColor]];
+    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
 
 }
 

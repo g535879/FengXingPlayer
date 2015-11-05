@@ -138,12 +138,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.m"
-            timestampString = "468381886.474593"
+            timestampString = "468397790.771096"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "-titleBtnClick"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.m"
+            timestampString = "468398156.882438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "-connectRequestWithCurrentPage:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[VarietyShowViewController connectRequest]_block_invoke"
+                  moduleName = "FengXingPlayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guyubin/developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.m"
+                  timestampString = "468386777.274946"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "125">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[VarietyShowViewController connectRequest]_block_invoke_2"
+                  moduleName = "FengXingPlayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guyubin/developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.m"
+                  timestampString = "468386777.275361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "74">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.m"
+            timestampString = "468398156.882438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "-connectRequestWithCurrentPage:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.m"
+            timestampString = "468398156.882438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "-connectRequestWithCurrentPage:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

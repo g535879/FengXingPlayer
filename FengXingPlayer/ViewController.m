@@ -19,6 +19,7 @@
     
     //设置背景色
     [self.view setBackgroundColor:[UIColor whiteColor]];
+
 }
 
 - (void)didReceiveMemoryWarning {

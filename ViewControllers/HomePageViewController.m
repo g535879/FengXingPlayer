@@ -7,6 +7,7 @@
 //
 
 #import "HomePageViewController.h"
+#import "VarietyShowViewController.h"
 #import "DesignPicScrollView.h"
 #import "ScroModel.h"
 
@@ -30,7 +31,17 @@
     [self setLayout]; //设置布局
 }
 
-
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    //隐藏导航栏
+    self.title = @"主页";
+    self.navigationController.navigationBar.hidden = YES;
+}
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    //隐藏导航栏
+    self.navigationController.navigationBar.hidden = NO;
+}
 - (void)setData {
     if (!_scroModelsArray) {
         _scroModelsArray = [@[] mutableCopy];
@@ -76,7 +87,7 @@
     //history
     UIBarButtonItem *historyBtn = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"homePage_bottomButton_history"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:nil action:nil];
     //settting
-        UIBarButtonItem *settingBtn = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"homePage_bottomButton_setting"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:nil action:nil];
+        UIBarButtonItem *settingBtn = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"homePage_bottomButton_setting"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(VarietyShowPage)];
     _bottomBar.items = @[flaxableBtn,downloadBtn,flaxableBtn,historyBtn,flaxableBtn,settingBtn,flaxableBtn];
     [self.view addSubview:_bottomBar];
 
@@ -100,7 +111,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+//setting btn click
+- (void)VarietyShowPage {
+    [self.navigationController pushViewController:[[VarietyShowViewController alloc] init] animated:YES];
+}
 /*
 #pragma mark - Navigation
 

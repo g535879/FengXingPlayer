@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD10DD911BEAEA3C003D0A34 /* VarietyShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD10DD901BEAEA3C003D0A34 /* VarietyShowViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AD8CD26D1BEA0B2F001F0BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD26C1BEA0B2F001F0BE3 /* main.m */; };
 		AD8CD2701BEA0B2F001F0BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD26F1BEA0B2F001F0BE3 /* AppDelegate.m */; };
 		AD8CD2731BEA0B2F001F0BE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CD2721BEA0B2F001F0BE3 /* ViewController.m */; };
@@ -929,6 +930,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD10DD8F1BEAEA3C003D0A34 /* VarietyShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VarietyShowViewController.h; path = ../../../../developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.h; sourceTree = "<group>"; };
+		AD10DD901BEAEA3C003D0A34 /* VarietyShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VarietyShowViewController.m; path = ../../../../developer/Project/FengXingPlayer/ViewControllers/VarietyShowViewController.m; sourceTree = "<group>"; };
 		AD8CD2681BEA0B2F001F0BE3 /* FengXingPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengXingPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8CD26C1BEA0B2F001F0BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD8CD26E1BEA0B2F001F0BE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -2028,6 +2031,8 @@
 				AD8CD3311BEA0F13001F0BE3 /* CarefulChosenViewController.m */,
 				AD8CD9D51BEA20EB001F0BE3 /* HomePageViewController.h */,
 				AD8CD9D61BEA20EB001F0BE3 /* HomePageViewController.m */,
+				AD10DD8F1BEAEA3C003D0A34 /* VarietyShowViewController.h */,
+				AD10DD901BEAEA3C003D0A34 /* VarietyShowViewController.m */,
 				AD8CD2711BEA0B2F001F0BE3 /* ViewController.h */,
 				AD8CD2721BEA0B2F001F0BE3 /* ViewController.m */,
 			);
@@ -4075,6 +4080,7 @@
 				AD8CD2F01BEA0DB8001F0BE3 /* AFNetworkReachabilityManager.m in Sources */,
 				ADDAD8121BEA375000EF0233 /* DesignPicScrollView.m in Sources */,
 				AD8CD9F21BEA257E001F0BE3 /* ScroModel.m in Sources */,
+				AD10DD911BEAEA3C003D0A34 /* VarietyShowViewController.m in Sources */,
 				AD8CD3201BEA0DC7001F0BE3 /* MKAnnotationView+WebCache.m in Sources */,
 				AD8CD32E1BEA0DC7001F0BE3 /* UIImageView+WebCache.m in Sources */,
 				AD8CD2F51BEA0DB8001F0BE3 /* AFURLSessionManager.m in Sources */,
